@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/620426159a.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>More | Kakao Clone</title>
   </head>
   <body>
@@ -45,7 +46,7 @@
       <header class="more__header">
         <div class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img src="images/avatar.png" class="g-avater friend__avater" />
+            <img src="images/avatar.png" class="g-avatar friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Raon Maru
@@ -83,16 +84,22 @@
       <section class="more__suggestions">
         <h5 class="more__title">Suggestions</h5>
         <ul class="more__suggestions-list">
-          <li class="more__suggestions suggestion">
-            <i class="fas fa-quote-right fa-2x"></i>
+          <li class="more__suggestion suggestion">
+            <span class="suggestion__icon">
+              <i class="fas fa-quote-right fa-2x"></i>
+            </span>
             <span class="suggestion__title">Kakao Story</span>
           </li>
-          <li class="more__suggestions suggestion">
-            <i class="fas fa-beer fa-2x"></i>
+          <li class="more__suggestion suggestion">
+            <span class="suggestion__icon">
+              <i class="fas fa-beer fa-2x"></i>
+            </span>
             <span class="suggestion__title">Kakao Friend</span>
           </li>
-          <li class="more__suggestions suggestion">
-            <i class="fas fa-gamepad fa-2x"></i>
+          <li class="more__suggestion suggestion">
+            <span class="suggestion__icon">
+              <i class="fas fa-gamepad fa-2x"></i>
+            </span>
             <span class="suggestion__title">Friends Gem</span>
           </li>
         </ul>
@@ -122,5 +129,8 @@
         </li>
       </ul>
     </nav>
+    <span class="bigScreen__text"
+      >This application doesn't support PC mode.
+    </span>
   </body>
 </html>
